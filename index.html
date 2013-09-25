@@ -4,7 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mohammad Faizal Z</title>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
-<link rel="stylesheet" href="css/main.css">   
+<link rel="stylesheet" href="css/main.css">
+<script src="js/jquery.js"></script>  
 <script src="css/ajf8ggy.js"></script>
 <style type="text/css">.demo-unit,.tk-proxima-nova,body,h2,h3{font-family:"proxima-nova",sans-serif;}.header h1,.hero h1,.hero h2,.tk-omnes-pro{font-family:"omnes-pro",sans-serif;}</style><link rel="stylesheet" href="http://use.typekit.net/c/ed00b8/omnes-pro:n2:n3,proxima-nova:n1:n4:n7.X33:N:2,X35:N:2,Vmv:N:2,W0V:N:2,W0Y:N:2/d?3bb2a6e53c9684ffdc9a9ef3135b2a62d088c02801e4b8cf3adbe0e586742ab27c88b10b1c0967de7482ea95d27aee2d2f4b3d7420323f25b5b6830a932efa20dbd7b0c3cfe811162d28a21d83537731079b0bfa64da1085ffc1902cba3fe55cbe862530e435a09f2e0c491a3a79786f4218f58d4e556b395739b9859553b5f2100512cc1ed4d4502a8a20c3b0f1c8e79975f76c50167faed5540f4d3af73e4dfc54b2e33acc772268427364ead3ab18fe73ce30d79e2e22752abbdb413a7c0d055299eeb96a0d75e9b762231f3bda3a6005b057d593bb207de031f4f72fdb3260701489b2636ca808b909aeabb66ad93eceb1a365b467636e05a70b7c4bdc00f0b6ccf65294a147c65bd859af47738e26b49ed54bd2609649abef78a42f504ec4e516daf055ebcc0a5bd948ab3efaca1ea1c102a4d9740b817375312104b329e3aad208eb65d8b915e444982dd7659a6af1c1cdf0671a27e0fda9fa37d1408f0c63b42b1474d2ff4911b441b49fd18366b467794202ea144ac1a026f21a82729614a179a073db54a97982f410a02772dde89cc0033f6e8766dbd8d998675c1c764b390ac8a5e794b7358275f132882eebb69cd8f4c954c82d37ce9b9f15002d804ac7c4858fdc00758ad8"><script>
     try { Typekit.load(); } catch (e) {}
@@ -28,10 +29,10 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="">About</a>
+                        <a class="pure-button" id="about_anchor" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="">My Projects</a>
+                        <a class="pure-button" target="blank" href="http://www.github.com/zeenfaizpy">My Projects</a>
                     </li>
                 </ul>
             </nav>
@@ -54,16 +55,15 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+                        <h2 class="post-title">Making Fun with Web Scraping using Python</h2>
 
                         <p class="post-meta">
-                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">Python</a> on 15 Sep 2013.
                         </p>
                     </header>
 
                     <div class="post-description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <p>Last two weeks, i utilize most of time in learning about web scraping.Then i searched and found useful modules like BeautifulSoup,Srapy,Requests in Python.Then i started learning and finished.Then i started scraping Zomato.com for all hotel details and got stored in my MongoDB.Then i ended with scraping another website nseindia.com and get all details about each stocks in real time.You can check out my code <a href="https://github.com/zeenfaizpy?tab=repositories" target="blank">Here</a>.
                         </p>
                     </div>
                 </section>
@@ -72,48 +72,45 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+                        <h2 class="post-title">Writing Idiomatic Python</h2>
 
                         <p class="post-meta">
-                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">Python</a> on 24 August 2013
                         </p>
                     </header>
 
                     <div class="post-description">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            When i started coding python,mostly i used for loop for complex iteration.Then i found awesome python built-in which solved most of iteration issues and gives pretty speed.
+                            Tips for Iteration in Python:
+                            <h4>Map</h4>
+                            Use Map function for iterating iterables to get manipulation for same set of them.<br />
+                            Eg: To get squares of each item list [1,2,3]
+                            <h4>Reduce</h4>
+                            Use reduce for iterating iterables to perform manipulation but finally we get single value from iterables.<br />
+                            Eg: To get the product of all items in a list [2,3,4].
+                            <h4>Filter</h4>
+                            The function name itself has meaning.Iterate the iterables to filter that.<br />
+                            Eg: To filter value which is lesser than 5 from a list [1,2,3,4,5,6,7,8,9]
                         </p>
                     </div>
                 </section>
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+                        <h2 class="post-title">The Road I Ran</h2>
 
                         <p class="post-meta">
-                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">Python</a><a class="post-category post-category-pure" href="#">Javascript</a> on 15 July 2013
                         </p>
                     </header>
 
                     <div class="post-description">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
-                    </div>
-                </section>
-                <section class="post">
-                    <header class="post-header">
-
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Mohammad Faizal</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            I started my career in <a target="blank" href="www.ithoughtz.com">iThoughtz</a> as a Web Application Developer before 2 years.I crafted websites using HTML,CSS,JS.At first i dont know why js,but slowly i recognized the technologies and learn lot about browser internals,how it render pages.Then i tried to master in js.I got inspired from experts like <a href="paulirish.com/‎" target="blank">Paul Irish</a>,<a href="http://addyosmani.com/" target="blank">Addy Osmani</a>,<a href="ejohn.org/‎" target="blank">John resig</a> and tries to follow them through there blogs,tweets,github.I created many websites like <a href="http://www.aakam.in" target="blank">aakam.in</a>,<a href="http://www.irizartvs.com" target="blank">irizartvs.com</a>,<a href="http://www.spartanfitnesscenter.com" target="blank">spartanfitnesscenter.com</a>,<a href="http://www.tirupurdentalcenter.com" target="blank">tirupurdentalcenter.com</a> etc.I have great experience with meeting the clients of iThoughtz and handling the queries and issues.<br />
+                            Then the idea powers.Yah we have an idea to develop a product.
+                            Then i started coding frontend for our Financial product with HTML5,CSS3,Js.The most interesting one is,i learned about data visualization and <a href="https://github.com/zeenfaizpy/D3-Chart" target="blank">created lot of charts using D3.js.</a><br />
+                            Then finally entered into Python world.I have handled REST API using Tastypie Python Framework,Django,MongoDB,Postgressql,etc.
                         </p>
                     </div>
                 </section>
@@ -123,10 +120,17 @@
                 <div class="information pure-g-r">
                     <div class="pure-u-1">
                         <div class="l-box">
-                            <h3 class="post-title">Who Am I</h3>
-                            <div class="post-description">
+                            <a class="pure-button pure-button-primary" id="back_to_blog" style="text-decoration:none;" href="#">Back to Blog</a>
+                            <h3 class="post-title" style="font-size:24px;">Who Am I</h3>
+                            <div class="my_photo">
+                                <img src="images/MyPhoto.JPG" />
+                            </div>
+                            <div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    I'am <b>Mohammad Faizal</b>.Full Stack Developer,Muslim,Bachelor,Foodie,Freelancer.<br /><br />
+                                    I'am working in <a target="blank" href="http://www.ithoughtz.com">iThoughtz Technologies Pvt Ltd,Chennai</a> as Web Application Developer expertise in Python,Django,MongoDB,Postgresql,HTML5,CSS,Javascript.<br /><br />
+                                     I mostly code in Python,Javascript but am comfortable with a handful of other languages as well.<br /><br />
+                                     Contact : zeenfaiz@gmail.com
                                 </p>
                             </div>
                         </div>
@@ -140,7 +144,7 @@
             <footer class="footer">
                 <div class="pure-menu pure-menu-horizontal pure-menu-open">
                     <ul>
-                        <li><a href="">2013 &copy zeenfaiz@.com</a></li>
+                        <li><a href=""><b>2013 &copy zeenfaiz.com</b></a></li>
                     </ul>
                 </div>
             </footer>
@@ -156,6 +160,20 @@ YUI().use('node-base', 'node-event-delegate', function (Y) {
     Y.one('body').delegate('click', function (e) {
         e.preventDefault();
     }, 'a[href="#"]');
+});
+</script>
+<script>
+$(document).ready(function(){
+    $('.about').hide();
+    $('#about_anchor').on('click',function(){
+        $('.posts').hide();
+        $('.about').show();
+    });
+    $('#back_to_blog').on('click',function(){
+        $('.about').hide();
+        $('.posts').show();
+    });
+
 });
 </script>
 

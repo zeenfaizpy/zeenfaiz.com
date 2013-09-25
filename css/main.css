@@ -3,6 +3,15 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.my_photo
+{
+    width:200px;
+    height:500px;
+    position: relative;
+    float:left;
+    padding-right: 23px;
+    /*background-image: url('../images/MyPhoto.JPG');*/
+}
 
 a {
     text-decoration: none;
